@@ -329,3 +329,10 @@ __pycache__/
 # should be stored in the .pubxml.user file.
 
 # End of https://www.gitignore.io/api/c++,visualstudio
+RCa11376
+RCb11376
+*.md
+resource.h
+*.rc
+Sujinnn.vcxproj
+Sujinnn.vcxproj.filters
