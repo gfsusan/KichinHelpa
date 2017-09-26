@@ -15,7 +15,7 @@ enum {
 Greeter::Greeter() {
 	// 单捞磐海捞胶 按眉 积己
 	db = RecipeDB::Instance();
-	// pm = PlanManager::instance();
+	pm = PlanManager::instance();
 	choice();
 }
 
@@ -30,7 +30,7 @@ void Greeter::choice() {
 		system("cls");
 
 		db->printDB();
-		//pm->planlist(2017, 9, 25, 5);
+	pm->planlist(2017, 9, 25, 5);
 
 		cout << "Hello! This is your IIKH (Interactive Intelligent Kitchen Helper).\n";
 
